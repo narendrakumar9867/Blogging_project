@@ -7,7 +7,7 @@ const cookiePaser = require("cookie-parser");
 const Blog = require('./models/blog');
 
 const userRoute = require("./routes/user");
-const blogRoute = require("./routes/blog")
+const blogRoute = require("./routes/blog");
 
 const { checkForAuthenticationCookie } = require("./middlewares/authentication");
 
